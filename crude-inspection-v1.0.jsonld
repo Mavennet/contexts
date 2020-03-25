@@ -19,6 +19,6 @@
       "predecessorOf": "prm:predecessorOf",
       "successorOf": "prm:successorOf",
       "physicalSpecs": "cp:physicalSpecs",
-      "chemicalSpecs": "cp:chemicalSpecs",
+      "chemicalSpecs": "cp:chemicalSpecs"
   }
 }
