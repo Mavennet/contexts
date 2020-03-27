@@ -34,11 +34,11 @@ Place where the carrier delivers the product.
 
 <h4 id="valuePerItem"><a href="#valuePerItem">valuePerItem</a></h4>
 
-Value per item. 
+Value per item in US Dollars. 
 
 <h4 id="totalOrderValue"><a href="#totalOrderValue">totalOrderValue</a></h4>
 
-Total Order Value. 
+Total Order Value in US Dollars. 
 
 <h4 id="freightChargeTerms"><a href="#freightChargeTerms">freightChargeTerms</a></h4>
 

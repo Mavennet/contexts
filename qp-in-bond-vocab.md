@@ -49,11 +49,11 @@ Bill of lading document number.
 
 <h4 id="valuePerItem"><a href="#valuePerItem">valuePerItem</a></h4>
 
-Value per item. 
+Value per item in US Dollars. 
 
 <h4 id="totalOrderValue"><a href="#totalOrderValue">totalOrderValue</a></h4>
 
-Total Order Value. 
+Total Order Value in US Dollars. 
 
 <h4 id="expectedDeliveryDates"><a href="#expectedDeliveryDates">expectedDeliveryDates</a></h4>
 
