@@ -11,6 +11,7 @@
       "eventId": "prm:identifier",
       "description": "schema:text",
       "geo": "te:geo",
+      "address": "te:address",
       "latitude": "te:latitude",
       "longitude": "te:longitude",
       "eventCreator": "te:eventCreator",
