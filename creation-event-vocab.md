@@ -20,6 +20,14 @@ Description.
 
 Geo location of the event where it is created. 
 
+<h4 id="latitude"><a href="#latitude">latitude</a></h4>
+
+latitude. 
+
+<h4 id="longitude"><a href="#longitude">longitude</a></h4>
+
+longitude. 
+
 <h4 id="eventCreator"><a href="#eventCreator">eventCreator</a></h4>
 
 EventCreator. 

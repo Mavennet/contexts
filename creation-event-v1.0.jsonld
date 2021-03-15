@@ -9,7 +9,9 @@
       "productId": "prm:identifier",
       "eventId": "prm:identifier",
       "description": "schema:text",
-      "geo": "schema:Place",
+      "geo": "ce:geo",
+      "latitude": "ce:latitude",
+      "longitude": "ce:longitude",
       "eventCreator": "ce:eventCreator"
   }
 }
