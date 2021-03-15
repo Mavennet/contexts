@@ -1,4 +1,4 @@
-# Creation Event Context
+# Transfer Event Context
 
 - [Latest JSON-LD Context](./transfer-event-v1.0.jsonld)
 
