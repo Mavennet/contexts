@@ -1,0 +1,26 @@
+{
+  "@context":
+  {
+      "@version": 1.1,
+      "se": "https://mavennet.github.io/contexts/storage-event-vocab#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "schema": "http://schema.org/",
+      "prm": "http://schema.org/ProductModel",
+      "eventType": "se:eventType",
+      "productId": "prm:identifier",
+      "eventId": "prm:identifier",
+      "description": "schema:text",
+      "geo": "se:geo",
+      "address": "se:address",
+      "latitude": "se:latitude",
+      "longitude": "se:longitude",
+      "eventCreator": "se:eventCreator",
+      "category": "se:category",
+      "volume": "se:volume",
+      "uom": "se:uom",
+      "tankLocation": "se:tankLocation",
+      "physicalSpecs": "se:physicalSpecs",
+      "chemicalSpecs": "se:chemicalSpecs",
+      "gasSpecs": "se:gasSpecs"
+  }
+}

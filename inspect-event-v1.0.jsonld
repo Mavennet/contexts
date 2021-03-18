@@ -1,0 +1,25 @@
+{
+  "@context":
+  {
+      "@version": 1.1,
+      "ie": "https://mavennet.github.io/contexts/inspect-event-vocab#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "schema": "http://schema.org/",
+      "prm": "http://schema.org/ProductModel",
+      "productId": "prm:identifier",
+      "eventId": "prm:identifier",
+      "description": "schema:text",
+      "geo": "ie:geo",
+      "address": "ie:address",
+      "latitude": "ie:latitude",
+      "longitude": "ie:longitude",
+      "eventCreator": "ie:eventCreator",
+      "producer": "ie:producer",
+      "certifier": "ie:certifier",
+      "category": "ie:category",
+      "hsCode": "ie:hsCode",
+      "physicalSpecs": "ie:physicalSpecs",
+      "chemicalSpecs": "ie:chemicalSpecs",
+      "gasSpecs": "ie:gasSpecs"
+  }
+}

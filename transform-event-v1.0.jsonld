@@ -1,0 +1,20 @@
+{
+  "@context":
+  {
+      "@version": 1.1,
+      "te": "https://mavennet.github.io/contexts/transform-event-vocab#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "schema": "http://schema.org/",
+      "prm": "http://schema.org/ProductModel",
+      "eventType": "te:eventType",
+      "eventId": "prm:identifier",
+      "description": "schema:text",
+      "geo": "te:geo",
+      "address": "te:address",
+      "latitude": "te:latitude",
+      "longitude": "te:longitude",
+      "eventCreator": "te:eventCreator",
+      "productPredecessors": "te:productPredecessors",
+      "productSuccessors": "te:productSuccessors"
+  }
+}
