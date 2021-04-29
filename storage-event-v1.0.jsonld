@@ -29,6 +29,7 @@
       "viscosityAt40C": "se:viscosityAt40C",
       "viscosityAt45C": "se:viscosityAt45C",
       "pourPoint": "se:pourPoint",
+      "flashPoint": "ie:flashPoint",
       "vapourPressure": "se:vapourPressure",
       "density": "se:density",
       "naphtha": "se:naphtha",
