@@ -1,0 +1,24 @@
+{
+  "@context":
+  {
+    "@version": 1.0,
+    "ste": "https://mavennet.github.io/contexts/steel-transfer-event-vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "http://schema.org/",
+    "prm": "http://schema.org/ProductModel",
+    "productId": "prm:identifier",
+    "eventId": "prm:identifier",
+    "eventTime": "schema:DateTime#v2",
+    "eventType": "ste:eventType",
+    "initiator": "schema:organization",
+    "receiver": "schema:organization",
+    "place": "gs1:place",
+    "portOfEntry": "gs1:place",
+    "portOfDestination": "gs1:place",
+    "receiptLocation": "gs1:place",
+    "countryOfDestination": "schema:addressCountry",
+    "place": "gs1:place",
+    "product" "schema:model",
+    "price": "schema:price"
+  }
+}

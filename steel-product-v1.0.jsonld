@@ -1,0 +1,14 @@
+{
+  "@context":
+  {
+    "@version": 1.0,
+    "sp": "https://mavennet.github.io/contexts/steel-product-vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "http://schema.org/",
+    "gs1": "https://gs1.org/voc/",
+    "prm": "http://schema.org/ProductModel",
+    "hsCode": "sp:hsCode"
+    "product": "prm:model"
+    "facility": "gs1:place"
+  }
+}
