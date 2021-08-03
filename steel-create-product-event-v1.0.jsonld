@@ -3,15 +3,14 @@
   {
     "@version": 1.0,
     "scpe": "https://mavennet.github.io/contexts/steel-create-product-event-vocab#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "traceability": "https://w3id.org/traceability/v1",
     "schema": "http://schema.org/",
-    "gs1": "https://gs1.org/voc/",
     "prm": "http://schema.org/ProductModel",
     "productId": "prm:identifier",
     "eventId": "prm:identifier",
     "description": "schema:text",
-    "initiator": "schema:organization",
-    "place": "gs1:place",
+    "initiator": "traceability:organization",
+    "place": "traceability:place",
     "eventType": "scpe:eventType",
     "eventCreator": "scpe:eventCreator"
   }

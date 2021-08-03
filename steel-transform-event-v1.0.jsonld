@@ -3,16 +3,16 @@
   {
     "@version": 1.0,
     "ste": "https://mavennet.github.io/contexts/steel-transform-event-vocab#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "traceability": "https://w3id.org/traceability/v1",
     "schema": "http://schema.org/",
     "prm": "http://schema.org/ProductModel",
     "productId": "prm:identifier",
     "eventId": "prm:identifier",
     "eventTime": "schema:DateTime#v2",
     "eventType": "ste:eventType",
-    "initiator": "schema:organization",
-    "place": "gs1:place",
-    "newProduct" "schema:products",
-    "consumedProducts" "schema:products"
+    "initiator": "traceability:organization",
+    "place": "traceability:place",
+    "newProduct" "traceability:product",
+    "consumedProducts" "traceability:product"
   }
 }

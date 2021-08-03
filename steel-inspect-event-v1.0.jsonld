@@ -3,15 +3,15 @@
   {
     "@version": 1.0,
     "sie": "https://mavennet.github.io/contexts/steel-inspect-event-vocab#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "traceability": "https://w3id.org/traceability/v1",
     "schema": "http://schema.org/",
     "prm": "http://schema.org/ProductModel",
     "productId": "prm:identifier",
     "eventId": "prm:identifier",
     "eventTime": "schema:DateTime#v2",
     "eventType": "sie:eventType",
-    "initiator": "schema:organization",
-    "place": "gs1:place",
-    "product" "schema:model"
+    "initiator": "traceability:organization",
+    "place": "traceability:place",
+    "product" "traceability:product"
   }
 }
