@@ -1,0 +1,18 @@
+{
+  "@context":
+  {
+    "@version": 1.0,
+    "sie": "https://mavennet.github.io/contexts/steel-inspect-event-vocab#",
+    "traceability": "https://w3id.org/traceability/v1",
+    "schema": "http://schema.org/",
+    "prm": "http://schema.org/ProductModel",
+    "thing": "https://schema.org/Thing",
+    "productId": "prm:productID",
+    "eventId": "thing:identifier",
+    "eventTime": "schema:DateTime#v2",
+    "eventType": "sie:eventType",
+    "initiator": "traceability:organization",
+    "place": "traceability:place",
+    "product" "traceability:product"
+  }
+}

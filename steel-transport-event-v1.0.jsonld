@@ -1,0 +1,19 @@
+{
+  "@context":
+  {
+    "@version": 1.0,
+    "ste": "https://mavennet.github.io/contexts/steel-transport-event-vocab#",
+    "traceability": "https://w3id.org/traceability/v1",
+    "schema": "http://schema.org/",
+    "prm": "http://schema.org/ProductModel",
+    "thing": "https://schema.org/Thing",
+    "productId": "prm:identifier",
+    "eventId": "thing:identifier",
+    "eventTime": "schema:DateTime#v2",
+    "eventType": "ste:eventType",
+    "initiator": "traceability:organization",
+    "place": "traceability:place",
+    "product" "traceability:product",
+    "trackingNumber": "schema:trackingNumber"
+  }
+}
