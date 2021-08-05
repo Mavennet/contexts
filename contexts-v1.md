@@ -639,9 +639,7 @@ Location where the event occured.
 <h4 id="product"><a href="#product">product</a></h4>
 
 Product Object. 
-# Steel Product Context
-
-- [Latest JSON-LD Context](./steel-product-v1.0.jsonld)
+# Steel Product Context <a name="steel-product"></a>
 
 ### Terminology
 

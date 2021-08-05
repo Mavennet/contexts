@@ -1,4 +1,5 @@
 {
+  "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-product",
   "@context": {
     "sp": "https://mavennet.github.io/contexts/steel-product-vocab#",
     "traceability": "https://w3id.org/traceability/v1",

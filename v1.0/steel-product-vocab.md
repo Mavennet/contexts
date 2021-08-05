@@ -1,6 +1,4 @@
-# Steel Product Context
-
-- [Latest JSON-LD Context](./steel-product-v1.0.jsonld)
+# Steel Product Context <a name="steel-product"></a>
 
 ### Terminology
 
