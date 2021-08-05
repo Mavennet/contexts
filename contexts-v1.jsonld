@@ -237,7 +237,7 @@
   "steel-product": {
     "@context": {
       "@version": 1.1,
-      "sp": "https://mavennet.github.io/contexts/steel-product-vocab#",
+      "sp": "https://mavennet.github.io/contexts/contexts-v1",
       "traceability": "https://w3id.org/traceability/v1",
       "HSCode": "sp:HSCode",
       "product": "traceability:SteelProduct",
