@@ -1,18 +1,16 @@
 {
-  "@context":
-  {
-      "@version": 1.1,
-      "ce": "https://mavennet.github.io/contexts/creation-event-vocab#",
-      "xsd": "http://www.w3.org/2001/XMLSchema#",
-      "schema": "http://schema.org/",
-      "prm": "http://schema.org/ProductModel",
-      "productId": "prm:identifier",
-      "eventId": "prm:identifier",
-      "description": "schema:text",
-      "geo": "ce:geo",
-      "address": "te:address",
-      "latitude": "ce:latitude",
-      "longitude": "ce:longitude",
-      "eventCreator": "ce:eventCreator"
+  "@context": {
+    "ce": "https://mavennet.github.io/contexts/creation-event-vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "http://schema.org/",
+    "prm": "http://schema.org/ProductModel",
+    "productId": "prm:identifier",
+    "eventId": "prm:identifier",
+    "description": "schema:text",
+    "geo": "ce:geo",
+    "address": "te:address",
+    "latitude": "ce:latitude",
+    "longitude": "ce:longitude",
+    "eventCreator": "ce:eventCreator"
   }
 }
