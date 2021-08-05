@@ -21,14 +21,12 @@ function readFiles() {
   result.map((filename) => {
     const content = fs.readFileSync(dir + "/" + filename, "utf-8");
     const contentObj = JSON.parse(content);
-    contentObj[
-      "@id"
-    ] = `https://mavennet.github.io/contexts/contexts-v1#${filename.split(
-      "."[0]
-    )}`;
+    contentObj["@id"] = `https://mavennet.github.io/contexts/contexts-v1#${
+      filename.split(".")[0]
+    }`;
     newContext["@context"][filename.split(".jsonld")[0]] = contentObj;
   });
-  fs.writeFileSync("contexts-v1.jsonld", JSON.stringify(newContext));
+  fs.writeFileSync("contexts-v1.jsonld", JSON.stringify(newContext, null, 2));
 }
 
 readFiles();

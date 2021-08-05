@@ -7,7 +7,7 @@
     "description": "https://schema.org/description",
     "identifier": "https://schema.org/identifier",
     "bill-of-lading": {
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#bill-of-lading,jsonld",
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#bill-of-lading",
       "@context": {
         "bol": "https://mavennet.github.io/contexts/contexts-v1#bill-of-lading",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -42,7 +42,7 @@
         "longitude": "ce:longitude",
         "eventCreator": "ce:eventCreator"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#creation-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#creation-event"
     },
     "crude-inspection": {
       "@context": {
@@ -65,7 +65,7 @@
         "physicalSpecs": "cp:physicalSpecs",
         "chemicalSpecs": "cp:chemicalSpecs"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#crude-inspection,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#crude-inspection"
     },
     "crude-product": {
       "@context": {
@@ -87,7 +87,7 @@
         "physicalSpecs": "cp:physicalSpecs",
         "chemicalSpecs": "cp:chemicalSpecs"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#crude-product,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#crude-product"
     },
     "inspect-event": {
       "@context": {
@@ -185,7 +185,7 @@
         "hydrogenSulfideContent": "ie:hydrogenSulfideContent",
         "sandDustGumsAndFreeLiquid": "ie:sandDustGumsAndFreeLiquid"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#inspect-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#inspect-event"
     },
     "qp-in-bond": {
       "@context": {
@@ -210,7 +210,7 @@
         "expectedDeliveryDates": "bol:expectedDeliveryDates",
         "comments": "schema:text"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#qp-in-bond,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#qp-in-bond"
     },
     "steel-create-product-event": {
       "@context": {
@@ -222,7 +222,7 @@
         "eventType": "https://mavennet.github.io/contexts/steel-create-product-event-vocab#eventType",
         "eventCreator": "https://mavennet.github.io/contexts/steel-create-product-event-vocab#eventCreator"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-create-product-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-create-product-event"
     },
     "steel-inspect-event": {
       "@context": {
@@ -239,10 +239,10 @@
         "place": "traceability:place",
         "product": "traceability:product"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-inspect-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-inspect-event"
     },
     "steel-product": {
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-product,jsonld",
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-product",
       "@context": {
         "sp": "https://mavennet.github.io/contexts/steel-product-vocab#",
         "traceability": "https://w3id.org/traceability/v1",
@@ -268,7 +268,7 @@
         "storedWeight": "traceability:MeasuredValue",
         "inspection": "traceability:InspectionReport"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-storage-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-storage-event"
     },
     "steel-transfer-event": {
       "@context": {
@@ -291,7 +291,7 @@
         "product": "traceability:product",
         "price": "schema:price"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-transfer-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-transfer-event"
     },
     "steel-transform-event": {
       "@context": {
@@ -309,7 +309,7 @@
         "newProduct": "traceability:product",
         "consumedProducts": "traceability:product"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-transform-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-transform-event"
     },
     "steel-transport-event": {
       "@context": {
@@ -327,7 +327,7 @@
         "product": "traceability:product",
         "trackingNumber": "schema:trackingNumber"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-transport-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-transport-event"
     },
     "storage-event": {
       "@context": {
@@ -426,7 +426,7 @@
         "hydrogenSulfideContent": "se:hydrogenSulfideContent",
         "sandDustGumsAndFreeLiquid": "se:sandDustGumsAndFreeLiquid"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#storage-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#storage-event"
     },
     "transfer-event": {
       "@context": {
@@ -452,7 +452,7 @@
         "countryOfDestination": "te:countryOfDestination",
         "receiptLocation": "te:receiptLocation"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#transfer-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#transfer-event"
     },
     "transform-event": {
       "@context": {
@@ -471,7 +471,7 @@
         "productPredecessors": "te:productPredecessors",
         "productSuccessors": "te:productSuccessors"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#transform-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#transform-event"
     },
     "transport-event": {
       "@context": {
@@ -497,7 +497,7 @@
         "category": "te:category",
         "displacementId": "te:displacementId"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#transport-event,jsonld"
+      "@id": "https://mavennet.github.io/contexts/contexts-v1#transport-event"
     }
   }
 }
