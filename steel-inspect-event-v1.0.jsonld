@@ -1,7 +1,7 @@
 {
   "@context":
   {
-    "@version": 1.0,
+    "@version": 1.1,
     "sie": "https://mavennet.github.io/contexts/steel-inspect-event-vocab#",
     "traceability": "https://w3id.org/traceability/v1",
     "schema": "http://schema.org/",

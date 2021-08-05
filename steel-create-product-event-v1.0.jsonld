@@ -1,7 +1,6 @@
 {
-  "@context":
-  {
-    "@version": 1.0,
+  "@context": {
+    "@version": 1.1,
     "scpe": "https://mavennet.github.io/contexts/steel-create-product-event-vocab#",
     "traceability": "https://w3id.org/traceability/v1",
     "schema": "http://schema.org/",
