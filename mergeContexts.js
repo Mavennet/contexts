@@ -3,12 +3,14 @@ var fs = require("fs");
 const dir = "./v1.0";
 
 const newContext = {
-  "@version": 1.1,
-  id: "@id",
-  type: "@type",
-  name: "https://schema.org/name",
-  description: "https://schema.org/description",
-  identifier: "https://schema.org/identifier",
+  "@context": {
+    "@version": 1.1,
+    id: "@id",
+    type: "@type",
+    name: "https://schema.org/name",
+    description: "https://schema.org/description",
+    identifier: "https://schema.org/identifier",
+  },
 };
 
 function readFiles() {
@@ -18,7 +20,13 @@ function readFiles() {
   });
   result.map((filename) => {
     const content = fs.readFileSync(dir + "/" + filename, "utf-8");
-    newContext[filename.split(".jsonld")[0]] = JSON.parse(content);
+    const contentObj = JSON.parse(content);
+    contentObj[
+      "@id"
+    ] = `https://mavennet.github.io/contexts/contexts-v1#${filename.split(
+      "."[0]
+    )}`;
+    newContext["@context"][filename.split(".jsonld")[0]] = contentObj;
   });
   fs.writeFileSync("contexts-v1.jsonld", JSON.stringify(newContext));
 }
