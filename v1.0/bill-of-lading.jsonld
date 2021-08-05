@@ -1,6 +1,7 @@
 {
+  "@id": "https://mavennet.github.io/contexts/contexts-v1#bill-of-lading",
   "@context": {
-    "bol": "https://mavennet.github.io/contexts/bill-of-lading-vocab#",
+    "bol": "https://mavennet.github.io/contexts/contexts-v1#bill-of-lading",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "http://schema.org/",
     "prm": "http://schema.org/ProductModel",
