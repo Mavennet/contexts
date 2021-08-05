@@ -26,7 +26,7 @@ function readFiles() {
     }`;
     newContext["@context"][filename.split(".jsonld")[0]] = contentObj;
   });
-  fs.writeFileSync("contexts-v1.jsonld", JSON.stringify(newContext, null, 2));
+  fs.writeFileSync("v1.jsonld", JSON.stringify(newContext, null, 2));
 }
 
 readFiles();
