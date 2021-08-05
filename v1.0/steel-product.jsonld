@@ -3,7 +3,7 @@
   "@context": {
     "sp": "https://mavennet.github.io/contexts/steel-product-vocab#",
     "traceability": "https://w3id.org/traceability/v1",
-    "HSCode": "sp:HSCode",
+    "HSCode": "https://mavennet.github.io/contexts/contexts-v1#HSCode",
     "product": "traceability:SteelProduct",
     "facility": "traceability:place"
   }
