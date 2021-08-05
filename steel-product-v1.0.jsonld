@@ -4,8 +4,8 @@
     "@version": 1.0,
     "sp": "https://mavennet.github.io/contexts/steel-product-vocab#",
     "traceability": "https://w3id.org/traceability/v1",
-    "hsCode": "sp:hsCode"
-    "product": "traceability:product"
+    "hsCode": "sp:hsCode",
+    "product": "traceability:product",
     "facility": "traceability:place"
   }
 }
