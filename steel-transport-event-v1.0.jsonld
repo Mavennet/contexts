@@ -1,6 +1,5 @@
 {
-  "@context":
-  {
+  "@context": {
     "@version": 1.1,
     "ste": "https://mavennet.github.io/contexts/steel-transport-event-vocab#",
     "traceability": "https://w3id.org/traceability/v1",
@@ -13,7 +12,7 @@
     "eventType": "ste:eventType",
     "initiator": "traceability:organization",
     "place": "traceability:place",
-    "product" "traceability:product",
+    "product": "traceability:product",
     "trackingNumber": "schema:trackingNumber"
   }
 }

@@ -1,17 +1,12 @@
 {
   "@context": {
     "@version": 1.1,
-    "scpe": "https://mavennet.github.io/contexts/steel-create-product-event-vocab#",
-    "traceability": "https://w3id.org/traceability/v1",
-    "schema": "http://schema.org/",
-    "prm": "http://schema.org/ProductModel",
-    "thing": "https://schema.org/Thing",
-    "productId": "prm:productID",
-    "eventId": "thing:identifier",
-    "description": "schema:text",
-    "initiator": "traceability:organization",
-    "place": "traceability:place",
-    "eventType": "scpe:eventType",
-    "eventCreator": "scpe:eventCreator"
+    "productId": "http://schema.org/ProductModelproductID",
+    "eventId": "http://schema.org/identifier",
+    "description": "http://schema.org/text",
+    "initiator": "https://w3c-ccg.github.io/traceability-vocab/#Organization",
+    "place": "https://w3c-ccg.github.io/traceability-vocab/#place",
+    "eventType": "https://mavennet.github.io/contexts/steel-create-product-event-vocab#eventType",
+    "eventCreator": "https://mavennet.github.io/contexts/steel-create-product-event-vocab#eventCreator"
   }
 }
