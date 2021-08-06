@@ -36,10 +36,8 @@
         "productId": "prm:identifier",
         "eventId": "prm:identifier",
         "description": "schema:text",
-        "geo": "ce:geo",
+        "geo": "schema:geo",
         "address": "te:address",
-        "latitude": "ce:latitude",
-        "longitude": "ce:longitude",
         "eventCreator": "ce:eventCreator"
       },
       "@id": "https://mavennet.github.io/contexts/v1#creation-event"
