@@ -1,6 +1,6 @@
 {
   "@context": {
-    "ce": "https://mavennet.github.io/contexts/creation-event-vocab#",
+    "ce": "https://mavennet.github.io/contexts/v1#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "http://schema.org/",
     "prm": "http://schema.org/ProductModel",

@@ -1,7 +1,7 @@
 {
-  "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-product",
+  "@id": "https://mavennet.github.io/contexts/v1#steel-product",
   "@context": {
-    "sp": "https://mavennet.github.io/contexts/steel-product-vocab#",
+    "sp": "https://mavennet.github.io/contexts/v1#",
     "traceability": "https://w3id.org/traceability/v1",
     "HSCode": "https://mavennet.github.io/contexts/contexts-v1#HSCode",
     "product": "traceability:SteelProduct",

@@ -7,9 +7,9 @@
     "description": "https://schema.org/description",
     "identifier": "https://schema.org/identifier",
     "bill-of-lading": {
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#bill-of-lading",
+      "@id": "https://mavennet.github.io/contexts/v1#bill-of-lading",
       "@context": {
-        "bol": "https://mavennet.github.io/contexts/contexts-v1#bill-of-lading",
+        "bol": "https://mavennet.github.io/contexts/v1#bill-of-lading",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -29,7 +29,7 @@
     },
     "creation-event": {
       "@context": {
-        "ce": "https://mavennet.github.io/contexts/creation-event-vocab#",
+        "ce": "https://mavennet.github.io/contexts/v1#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -42,11 +42,11 @@
         "longitude": "ce:longitude",
         "eventCreator": "ce:eventCreator"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#creation-event"
+      "@id": "https://mavennet.github.io/contexts/v1#creation-event"
     },
     "crude-inspection": {
       "@context": {
-        "cp": "https://mavennet.github.io/contexts/crude-product-vocab#",
+        "cp": "https://mavennet.github.io/contexts/v1",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -65,11 +65,11 @@
         "physicalSpecs": "cp:physicalSpecs",
         "chemicalSpecs": "cp:chemicalSpecs"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#crude-inspection"
+      "@id": "https://mavennet.github.io/contexts/v1#crude-inspection"
     },
     "crude-product": {
       "@context": {
-        "cp": "https://mavennet.github.io/contexts/crude-product-vocab#",
+        "cp": "https://mavennet.github.io/contexts/v1",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -87,11 +87,11 @@
         "physicalSpecs": "cp:physicalSpecs",
         "chemicalSpecs": "cp:chemicalSpecs"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#crude-product"
+      "@id": "https://mavennet.github.io/contexts/v1#crude-product"
     },
     "inspect-event": {
       "@context": {
-        "ie": "https://mavennet.github.io/contexts/inspect-event-vocab#",
+        "ie": "https://mavennet.github.io/contexts/v1#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -185,12 +185,12 @@
         "hydrogenSulfideContent": "ie:hydrogenSulfideContent",
         "sandDustGumsAndFreeLiquid": "ie:sandDustGumsAndFreeLiquid"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#inspect-event"
+      "@id": "https://mavennet.github.io/contexts/v1#inspect-event"
     },
     "qp-in-bond": {
       "@context": {
-        "qp": "https://mavennet.github.io/contexts/qp-in-bond-vocab#",
-        "bol": "https://mavennet.github.io/contexts/bill-of-lading-vocab#",
+        "qp": "https://mavennet.github.io/contexts/v1#",
+        "bol": "https://mavennet.github.io/contexts/v1#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -210,7 +210,7 @@
         "expectedDeliveryDates": "bol:expectedDeliveryDates",
         "comments": "schema:text"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#qp-in-bond"
+      "@id": "https://mavennet.github.io/contexts/v1#qp-in-bond"
     },
     "steel-create-product-event": {
       "@context": {
@@ -222,11 +222,11 @@
         "eventType": "https://mavennet.github.io/contexts/steel-create-product-event-vocab#eventType",
         "eventCreator": "https://mavennet.github.io/contexts/steel-create-product-event-vocab#eventCreator"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-create-product-event"
+      "@id": "https://mavennet.github.io/contexts/v1#steel-create-product-event"
     },
     "steel-inspect-event": {
       "@context": {
-        "sie": "https://mavennet.github.io/contexts/steel-inspect-event-vocab#",
+        "sie": "https://mavennet.github.io/contexts/v1#",
         "traceability": "https://w3id.org/traceability/v1",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -239,12 +239,12 @@
         "place": "traceability:place",
         "product": "traceability:product"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-inspect-event"
+      "@id": "https://mavennet.github.io/contexts/v1#steel-inspect-event"
     },
     "steel-product": {
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-product",
+      "@id": "https://mavennet.github.io/contexts/v1#steel-product",
       "@context": {
-        "sp": "https://mavennet.github.io/contexts/steel-product-vocab#",
+        "sp": "https://mavennet.github.io/contexts/v1#",
         "traceability": "https://w3id.org/traceability/v1",
         "HSCode": "https://mavennet.github.io/contexts/contexts-v1#HSCode",
         "product": "traceability:SteelProduct",
@@ -253,7 +253,7 @@
     },
     "steel-storage-event": {
       "@context": {
-        "sse": "https://mavennet.github.io/contexts/steel-storage-event-vocab#",
+        "sse": "https://mavennet.github.io/contexts/v1#",
         "traceability": "https://w3id.org/traceability/v1",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -268,11 +268,11 @@
         "storedWeight": "traceability:MeasuredValue",
         "inspection": "traceability:InspectionReport"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-storage-event"
+      "@id": "https://mavennet.github.io/contexts/v1#steel-storage-event"
     },
     "steel-transfer-event": {
       "@context": {
-        "ste": "https://mavennet.github.io/contexts/steel-transfer-event-vocab#",
+        "ste": "https://mavennet.github.io/contexts/v1#",
         "traceability": "https://w3id.org/traceability/v1",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -291,11 +291,11 @@
         "product": "traceability:product",
         "price": "schema:price"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-transfer-event"
+      "@id": "https://mavennet.github.io/contexts/v1#steel-transfer-event"
     },
     "steel-transform-event": {
       "@context": {
-        "ste": "https://mavennet.github.io/contexts/steel-transform-event-vocab#",
+        "ste": "https://mavennet.github.io/contexts/v1#",
         "traceability": "https://w3id.org/traceability/v1",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -309,11 +309,11 @@
         "newProduct": "traceability:product",
         "consumedProducts": "traceability:product"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-transform-event"
+      "@id": "https://mavennet.github.io/contexts/v1#steel-transform-event"
     },
     "steel-transport-event": {
       "@context": {
-        "ste": "https://mavennet.github.io/contexts/steel-transport-event-vocab#",
+        "ste": "https://mavennet.github.io/contexts/v1#",
         "traceability": "https://w3id.org/traceability/v1",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -327,11 +327,11 @@
         "product": "traceability:product",
         "trackingNumber": "schema:trackingNumber"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#steel-transport-event"
+      "@id": "https://mavennet.github.io/contexts/v1#steel-transport-event"
     },
     "storage-event": {
       "@context": {
-        "se": "https://mavennet.github.io/contexts/storage-event-vocab#",
+        "se": "https://mavennet.github.io/contexts/v1#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -426,11 +426,11 @@
         "hydrogenSulfideContent": "se:hydrogenSulfideContent",
         "sandDustGumsAndFreeLiquid": "se:sandDustGumsAndFreeLiquid"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#storage-event"
+      "@id": "https://mavennet.github.io/contexts/v1#storage-event"
     },
     "transfer-event": {
       "@context": {
-        "te": "https://mavennet.github.io/contexts/transfer-event-vocab#",
+        "te": "https://mavennet.github.io/contexts/v1#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -452,11 +452,11 @@
         "countryOfDestination": "te:countryOfDestination",
         "receiptLocation": "te:receiptLocation"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#transfer-event"
+      "@id": "https://mavennet.github.io/contexts/v1#transfer-event"
     },
     "transform-event": {
       "@context": {
-        "te": "https://mavennet.github.io/contexts/transform-event-vocab#",
+        "te": "https://mavennet.github.io/contexts/v1#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -471,11 +471,11 @@
         "productPredecessors": "te:productPredecessors",
         "productSuccessors": "te:productSuccessors"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#transform-event"
+      "@id": "https://mavennet.github.io/contexts/v1#transform-event"
     },
     "transport-event": {
       "@context": {
-        "te": "https://mavennet.github.io/contexts/transport-event-vocab#",
+        "te": "https://mavennet.github.io/contexts/v1#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
@@ -497,7 +497,7 @@
         "category": "te:category",
         "displacementId": "te:displacementId"
       },
-      "@id": "https://mavennet.github.io/contexts/contexts-v1#transport-event"
+      "@id": "https://mavennet.github.io/contexts/v1#transport-event"
     }
   }
 }

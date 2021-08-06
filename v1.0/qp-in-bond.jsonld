@@ -1,7 +1,7 @@
 {
   "@context": {
-    "qp": "https://mavennet.github.io/contexts/qp-in-bond-vocab#",
-    "bol": "https://mavennet.github.io/contexts/bill-of-lading-vocab#",
+    "qp": "https://mavennet.github.io/contexts/v1#",
+    "bol": "https://mavennet.github.io/contexts/v1#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "http://schema.org/",
     "prm": "http://schema.org/ProductModel",

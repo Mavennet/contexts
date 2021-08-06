@@ -1,6 +1,6 @@
 {
   "@context": {
-    "te": "https://mavennet.github.io/contexts/transform-event-vocab#",
+    "te": "https://mavennet.github.io/contexts/v1#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "http://schema.org/",
     "prm": "http://schema.org/ProductModel",

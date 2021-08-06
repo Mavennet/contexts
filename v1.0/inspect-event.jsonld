@@ -1,6 +1,6 @@
 {
   "@context": {
-    "ie": "https://mavennet.github.io/contexts/inspect-event-vocab#",
+    "ie": "https://mavennet.github.io/contexts/v1#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "http://schema.org/",
     "prm": "http://schema.org/ProductModel",

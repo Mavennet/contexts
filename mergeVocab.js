@@ -9,11 +9,11 @@ function readFiles() {
   const result = filenames.filter((filename) => {
     return filename.split(".")[1] === "md";
   });
-  fs.rmSync("contexts-v1.md");
+  fs.rmSync("v1.md");
   result.map((filename) => {
     const content = fs.readFileSync(dir + "/" + filename, "utf-8");
     console.log(content);
-    fs.appendFileSync("contexts-v1.md", content);
+    fs.appendFileSync("v1.md", content);
   });
 }
 

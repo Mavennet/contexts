@@ -1,6 +1,6 @@
 {
   "@context": {
-    "ste": "https://mavennet.github.io/contexts/steel-transport-event-vocab#",
+    "ste": "https://mavennet.github.io/contexts/v1#",
     "traceability": "https://w3id.org/traceability/v1",
     "schema": "http://schema.org/",
     "prm": "http://schema.org/ProductModel",
