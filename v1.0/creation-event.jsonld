@@ -7,7 +7,7 @@
     "productId": "prm:identifier",
     "eventId": "prm:identifier",
     "description": "schema:text",
-    "geo": "ce:geo",
+    "geo": "schema:place",
     "address": "te:address",
     "latitude": "ce:latitude",
     "longitude": "ce:longitude",
