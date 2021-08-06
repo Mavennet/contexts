@@ -8,6 +8,7 @@
     "eventId": "prm:identifier",
     "description": "schema:text",
     "geo": "schema:place",
+    "place": "https://www.gs1.org/voc/Place",
     "address": "te:address",
     "latitude": "ce:latitude",
     "longitude": "ce:longitude",
