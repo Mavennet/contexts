@@ -13,6 +13,7 @@
     "latitude": "ce:latitude",
     "longitude": "ce:longitude",
     "eventCreator": "ce:eventCreator",
-    "eventType": "ce:eventType"
+    "eventType": "ce:eventType",
+    "initiator": "ce:initiator"
   }
 }
