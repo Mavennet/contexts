@@ -12,6 +12,7 @@
     "address": "te:address",
     "latitude": "ce:latitude",
     "longitude": "ce:longitude",
-    "eventCreator": "ce:eventCreator"
+    "eventCreator": "ce:eventCreator",
+    "eventType": "ce:eventType"
   }
 }
