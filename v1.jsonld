@@ -499,7 +499,8 @@
         "deliveryTicketId": "te:deliveryTicketId",
         "volume": "te:volume",
         "category": "te:category",
-        "displacementId": "te:displacementId"
+        "displacementId": "te:displacementId",
+        "countryOfDestination": "schema:text"
       },
       "@id": "https://mavennet.github.io/contexts/v1#transport-event"
     }
