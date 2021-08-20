@@ -1,0 +1,8 @@
+{
+  "@id": "https://mavennet.github.io/contexts/v1#bill-of-lading",
+  "@context": {
+    "address": "schema:text",
+    "latitude": "schema:text",
+    "longitude": "schema:text"
+  }
+}

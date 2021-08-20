@@ -301,7 +301,6 @@
         "productId": "prm:identifier",
         "eventId": "prm:identifier",
         "description": "schema:text",
-        "geo": "te:geo",
         "address": "te:address",
         "latitude": "te:latitude",
         "longitude": "te:longitude",
@@ -309,10 +308,11 @@
         "sender": "te:sender",
         "receiver": "te:receiver",
         "price": "te:price",
-        "portOfEntry": "te:portOfEntry",
-        "portOfArrival": "te:portOfArrival",
-        "portOfDestination": "te:portOfDestination",
+        "portOfEntry": "te:address-geo",
+        "portOfArrival": "te:address-geo",
+        "portOfDestination": "te:address-geo",
         "countryOfDestination": "schema:addressCountry",
+        "geo": "te:address-geo",
         "receiptLocation": "te:receiptLocation"
       },
       "@id": "https://mavennet.github.io/contexts/v1#TransferEventCredential"
@@ -361,6 +361,14 @@
         "displacementId": "te:displacementId"
       },
       "@id": "https://mavennet.github.io/contexts/v1#TransportEventCredential"
+    },
+    "address-geo": {
+      "@id": "https://mavennet.github.io/contexts/v1#address-geo",
+      "@context": {
+        "address": "schema:text",
+        "latitude": "schema:text",
+        "longitude": "schema:text"
+      }
     },
     "crude-inspection": {
       "@context": {
