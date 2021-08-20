@@ -27,26 +27,6 @@
         "comments": "schema:text"
       }
     },
-    "CreateProductCredential": {
-      "@context": {
-        "ce": "https://mavennet.github.io/contexts/v1#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "schema": "http://schema.org/",
-        "prm": "http://schema.org/ProductModel",
-        "productId": "prm:identifier",
-        "eventId": "prm:identifier",
-        "description": "schema:text",
-        "geo": "https://w3c-ccg.github.io/traceability-vocab/#place",
-        "place": "https://w3c-ccg.github.io/traceability-vocab/#place",
-        "address": "te:address",
-        "latitude": "ce:latitude",
-        "longitude": "ce:longitude",
-        "eventCreator": "ce:eventCreator",
-        "eventType": "ce:eventType",
-        "initiator": "ce:initiator"
-      },
-      "@id": "https://mavennet.github.io/contexts/v1#CreateProductCredential"
-    },
     "CrudeOilProduct": {
       "@context": {
         "cp": "https://mavennet.github.io/contexts/v1",
@@ -343,7 +323,7 @@
         "productId": "prm:identifier",
         "eventId": "prm:identifier",
         "description": "schema:text",
-        "geo": "te:geo",
+        "geo": "te:address-geo",
         "address": "te:address",
         "latitude": "te:latitude",
         "longitude": "te:longitude",
@@ -367,6 +347,26 @@
         "latitude": "schema:text",
         "longitude": "schema:text"
       }
+    },
+    "creation-event": {
+      "@context": {
+        "ce": "https://mavennet.github.io/contexts/v1#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "schema": "http://schema.org/",
+        "prm": "http://schema.org/ProductModel",
+        "productId": "prm:identifier",
+        "eventId": "prm:identifier",
+        "description": "schema:text",
+        "geo": "https://w3c-ccg.github.io/traceability-vocab/#place",
+        "place": "https://w3c-ccg.github.io/traceability-vocab/#place",
+        "address": "te:address",
+        "latitude": "ce:latitude",
+        "longitude": "ce:longitude",
+        "eventCreator": "ce:eventCreator",
+        "eventType": "ce:eventType",
+        "initiator": "ce:initiator"
+      },
+      "@id": "https://mavennet.github.io/contexts/v1#creation-event"
     },
     "crude-inspection": {
       "@context": {
