@@ -301,9 +301,6 @@
         "productId": "prm:identifier",
         "eventId": "prm:identifier",
         "description": "schema:text",
-        "address": "te:address",
-        "latitude": "te:latitude",
-        "longitude": "te:longitude",
         "eventCreator": "te:eventCreator",
         "sender": "te:sender",
         "receiver": "te:receiver",
@@ -365,6 +362,7 @@
     "address-geo": {
       "@id": "https://mavennet.github.io/contexts/v1#address-geo",
       "@context": {
+        "schema": "http://schema.org/",
         "address": "schema:text",
         "latitude": "schema:text",
         "longitude": "schema:text"
