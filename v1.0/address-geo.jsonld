@@ -1,5 +1,5 @@
 {
-  "@id": "https://mavennet.github.io/contexts/v1#bill-of-lading",
+  "@id": "https://mavennet.github.io/contexts/v1#address-geo",
   "@context": {
     "schema": "http://schema.org/",
     "address": "schema:text",
