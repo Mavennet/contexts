@@ -19,7 +19,7 @@
     "portOfEntry": "te:portOfEntry",
     "portOfArrival": "te:portOfArrival",
     "portOfDestination": "te:portOfDestination",
-    "countryOfDestination": "te:countryOfDestination",
+    "countryOfDestination": "schema:addressCountry",
     "receiptLocation": "te:receiptLocation"
   }
 }

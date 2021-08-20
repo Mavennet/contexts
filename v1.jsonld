@@ -453,7 +453,7 @@
         "portOfEntry": "te:portOfEntry",
         "portOfArrival": "te:portOfArrival",
         "portOfDestination": "te:portOfDestination",
-        "countryOfDestination": "te:countryOfDestination",
+        "countryOfDestination": "schema:addressCountry",
         "receiptLocation": "te:receiptLocation"
       },
       "@id": "https://mavennet.github.io/contexts/v1#transfer-event"
@@ -499,8 +499,7 @@
         "deliveryTicketId": "te:deliveryTicketId",
         "volume": "te:volume",
         "category": "te:category",
-        "displacementId": "te:displacementId",
-        "countryOfDestination": "schema:text"
+        "displacementId": "te:displacementId"
       },
       "@id": "https://mavennet.github.io/contexts/v1#transport-event"
     }

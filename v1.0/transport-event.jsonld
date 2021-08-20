@@ -20,7 +20,6 @@
     "deliveryTicketId": "te:deliveryTicketId",
     "volume": "te:volume",
     "category": "te:category",
-    "displacementId": "te:displacementId",
-    "countryOfDestination": "schema:text"
+    "displacementId": "te:displacementId"
   }
 }
