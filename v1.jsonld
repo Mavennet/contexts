@@ -6,27 +6,6 @@
     "name": "https://schema.org/name",
     "description": "https://schema.org/description",
     "identifier": "https://schema.org/identifier",
-    "BillOfLading": {
-      "@id": "https://mavennet.github.io/contexts/v1#BillOfLading",
-      "@context": {
-        "bol": "https://mavennet.github.io/contexts/v1#bill-of-lading",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "schema": "http://schema.org/",
-        "prm": "http://schema.org/ProductModel",
-        "productIdentifier": "prm:identifier",
-        "bolNumber": "bol:bolNumber",
-        "carrier": "bol:carrier",
-        "recipient": "bol:recipient",
-        "transportType": "bol:transportType",
-        "originAddress": "bol:originAddress",
-        "deliveryAddress": "bol:deliveryAddress",
-        "valuePerItem": "bol:valuePerItem",
-        "totalOrderValue": "bol:totalOrderValue",
-        "freightChargeTerms": "bol:freightChargeTerms",
-        "expectedDeliveryDates": "bol:expectedDeliveryDates",
-        "comments": "schema:text"
-      }
-    },
     "ChemicalSpecs": {
       "@id": "https://mavennet.github.io/contexts/v1#ChemicalSpecs",
       "@context": {
@@ -136,12 +115,12 @@
       "@context": {
         "schema": "http://schema.org/",
         "traceability": "https://w3id.org/traceability/v1",
-        "apiGravity": "schema:text",
-        "viscosityAt10C": "schema:text",
-        "viscosityAt20C": "schema:text",
-        "viscosityAt30C": "schema:text",
-        "viscosityAt40C": "schema:text",
-        "viscosityAt45C": "schema:text",
+        "apiGravity": "schema:identifier",
+        "viscosityAt10C": "ie:viscosityAt10C",
+        "viscosityAt20C": "ie:viscosityAt20C",
+        "viscosityAt30C": "ie:viscosityAt30C",
+        "viscosityAt40C": "ie:viscosityAt40C",
+        "viscosityAt45C": "ie:viscosityAt45C",
         "pourPoint": "ie:pourPoint",
         "flashPoint": "ie:flashPoint",
         "density": "ie:density",

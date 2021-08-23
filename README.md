@@ -6,7 +6,7 @@ This repository defines contexts for numerous VCs. Few Neoflow Event VCs do not 
 
 If a new context needs to be added/supported then you should define a new .jsonld file and its corresponding vocab in a .md file format. Please refer the existing event example -
 
-[The Context is hosted at ]["https://mavennet.github.io/contexts/v1.jsonld"]
+[The Context]("https://mavennet.github.io/contexts/v1.jsonld")
 
 ## Hosting
 
