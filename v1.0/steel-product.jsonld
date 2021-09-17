@@ -5,7 +5,6 @@
     "traceability": "https://w3id.org/traceability/v1#",
     "HSCode": "https://mavennet.github.io/contexts/contexts-v1#HSCode",
     "product": "traceability:SteelProduct",
-    "facility": "traceability:place",
-    "Observation": "traceability:Observation"
+    "facility": "traceability:place"
   }
 }

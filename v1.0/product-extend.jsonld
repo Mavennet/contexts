@@ -1,0 +1,9 @@
+{
+  "@id": "https://mavennet.github.io/contexts/v1#product-extend",
+  "@context": {
+    "traceability": "https://w3id.org/traceability/v1#",
+    "width": "traceability:QuantitativeValue",
+    "height": "traceability:QuantitativeValue",
+    "length": "traceability:QuantitativeValue"
+  }
+}
