@@ -10,6 +10,10 @@ Harmonized System Code.
 
 Product Object.
 
+<h4 id="productionDate"><a href="#productionDate">productionDate</a></h4>
+
+Pproduction Date
+
 <h4 id="facility"><a href="#facility">facility</a></h4>
 
 Facility where product is created at.
