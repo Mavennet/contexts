@@ -412,6 +412,14 @@
       },
       "@id": "https://mavennet.github.io/contexts/v1#crude-product"
     },
+    "organization-extend": {
+      "@id": "https://mavennet.github.io/contexts/v1#organization-extend",
+      "@context": {
+        "sp": "https://mavennet.github.io/contexts/v1#",
+        "traceability": "https://w3id.org/traceability/v1",
+        "did": "traceability:issuer"
+      }
+    },
     "product-extend": {
       "@id": "https://mavennet.github.io/contexts/v1#product-extend",
       "@context": {
