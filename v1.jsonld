@@ -458,7 +458,7 @@
         "HSCode": "https://mavennet.github.io/contexts/contexts-v1#HSCode",
         "product": "traceability:SteelProduct",
         "productionDate": "traceability:productionDate",
-        "facility": "traceability:Place"
+        "facility": "traceability:place"
       }
     },
     "steel-storage-event": {
