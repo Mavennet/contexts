@@ -412,6 +412,20 @@
       },
       "@id": "https://mavennet.github.io/contexts/v1#crude-product"
     },
+    "event-credential": {
+      "@id": "https://mavennet.github.io/contexts/v1#event-credential",
+      "@context": {
+        "sp": "https://mavennet.github.io/contexts/v1#",
+        "traceability": "https://w3id.org/traceability/v1",
+        "thing": "https://schema.org/Thing",
+        "productId": "thing:identifie",
+        "eventId": "thing:identifier",
+        "eventType": "sp:eventType",
+        "eventTime": "schema:DateTime#v2",
+        "initiator": "traceability:organization",
+        "place": "traceability:place"
+      }
+    },
     "organization-extend": {
       "@id": "https://mavennet.github.io/contexts/v1#organization-extend",
       "@context": {
