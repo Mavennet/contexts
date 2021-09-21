@@ -423,7 +423,8 @@
         "eventType": "sp:eventType",
         "eventTime": "schema:DateTime#v2",
         "initiator": "traceability:organization",
-        "place": "traceability:place"
+        "place": "traceability:place",
+        "product": "traceability:product"
       }
     },
     "organization-extend": {

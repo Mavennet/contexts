@@ -25,3 +25,7 @@ Event initiator
 <h4 id="place"><a href="#place">place</a></h4>
 
 Location where event takes place at
+
+<h4 id="product"><a href="#product">product</a></h4>
+
+Product Object.
