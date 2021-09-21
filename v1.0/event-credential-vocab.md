@@ -29,3 +29,7 @@ Location where event takes place at
 <h4 id="product"><a href="#product">product</a></h4>
 
 Product Object.
+
+<h4 id="description"><a href="#description">description</a></h4>
+
+Event description

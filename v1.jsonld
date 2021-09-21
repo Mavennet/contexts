@@ -416,6 +416,7 @@
       "@id": "https://mavennet.github.io/contexts/v1#event-credential",
       "@context": {
         "sp": "https://mavennet.github.io/contexts/v1#",
+        "schema": "http://schema.org/",
         "traceability": "https://w3id.org/traceability/v1",
         "thing": "https://schema.org/Thing",
         "productId": "thing:identifie",
@@ -424,7 +425,8 @@
         "eventTime": "schema:DateTime#v2",
         "initiator": "traceability:organization",
         "place": "traceability:place",
-        "product": "traceability:product"
+        "product": "traceability:product",
+        "description": "schema:text"
       }
     },
     "organization-extend": {
