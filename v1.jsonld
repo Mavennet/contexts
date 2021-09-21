@@ -316,6 +316,7 @@
       "@context": {
         "te": "https://mavennet.github.io/contexts/v1#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "traceability": "https://w3id.org/traceability/v1",
         "schema": "http://schema.org/",
         "prm": "http://schema.org/ProductModel",
         "eventType": "te:eventType",
@@ -334,7 +335,8 @@
         "deliveryTicketId": "te:deliveryTicketId",
         "volume": "te:volume",
         "category": "te:category",
-        "displacementId": "te:displacementId"
+        "displacementId": "te:displacementId",
+        "trackingNumber": "traceability:trackingNumber"
       },
       "@id": "https://mavennet.github.io/contexts/v1#TransportEventCredential"
     },
