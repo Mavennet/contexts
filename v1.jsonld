@@ -337,7 +337,8 @@
         "category": "te:category",
         "displacementId": "te:displacementId",
         "trackingNumber": "traceability:trackingNumber",
-        "arrivalDate": "traceability:arrivalDate"
+        "arrivalDate": "traceability:arrivalDate",
+        "deliveredWeight": "traceability:weight"
       },
       "@id": "https://mavennet.github.io/contexts/v1#TransportEventCredential"
     },
