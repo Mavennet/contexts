@@ -76,6 +76,6 @@ Transportantion tracking number.
 
 Date of arrival 
 
-<h4 id="deliveredWeight"><a href="#deliveredWeight">deliveredWeight</a></h4>
+<h4 id="expectedWeight"><a href="#expectedWeight">expectedWeight</a></h4>
 
-Delivered weight
+Expected weight
