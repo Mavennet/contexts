@@ -338,7 +338,8 @@
         "displacementId": "te:displacementId",
         "trackingNumber": "traceability:trackingNumber",
         "arrivalDate": "traceability:arrivalDate",
-        "expectedWeight": "traceability:weight"
+        "expectedWeight": "traceability:weight",
+        "deliveredWeight": "traceability:weight"
       },
       "@id": "https://mavennet.github.io/contexts/v1#TransportEventCredential"
     },
