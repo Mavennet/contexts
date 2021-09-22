@@ -1,0 +1,10 @@
+{
+  "@id": "https://mavennet.github.io/contexts/v1#mill-test-report-extend",
+  "@context": {
+    "sp": "https://mavennet.github.io/contexts/v1#",
+    "traceability": "https://w3id.org/traceability/v1",
+    "schema": "http://schema.org/",
+    "certifier": "schema:text",
+    "place": "traceability:place"
+  }
+}
