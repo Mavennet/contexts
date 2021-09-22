@@ -435,6 +435,14 @@
         "description": "schema:text"
       }
     },
+    "inbond-extend": {
+      "@id": "https://mavennet.github.io/contexts/v1#inbond-extend",
+      "@context": {
+        "sp": "https://mavennet.github.io/contexts/v1#",
+        "schema": "http://schema.org/",
+        "transactionNumber": "schema:text"
+      }
+    },
     "organization-extend": {
       "@id": "https://mavennet.github.io/contexts/v1#organization-extend",
       "@context": {
