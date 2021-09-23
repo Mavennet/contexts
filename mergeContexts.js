@@ -2,25 +2,24 @@ var fs = require("fs");
 
 const versions = [1, 2];
 
-const newContext = {
-  "@context": {
-    // "@version": 1.1,
-    id: "@id",
-    type: "@type",
-    name: "https://schema.org/name",
-    description: "https://schema.org/description",
-    identifier: "https://schema.org/identifier",
-  },
-};
-
 function readFiles() {
   versions.forEach(num => {
-    newContext["@context"]["@version"] = num
+    const newContext = {
+      "@context": {
+        "@version": num,
+        id: "@id",
+        type: "@type",
+        name: "https://schema.org/name",
+        description: "https://schema.org/description",
+        identifier: "https://schema.org/identifier",
+      },
+    };
     const dir = `./v${num}.0`
     const filenames = fs.readdirSync(dir);
     const result = filenames.filter((filename) => {
       return filename.split(".")[1] === "jsonld";
     });
+    fs.rmSync(`v${num}.jsonld`);
     result.map((filename) => {
       const content = fs.readFileSync(dir + "/" + filename, "utf-8");
       const contentObj = JSON.parse(content);
