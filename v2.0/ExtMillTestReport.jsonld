@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "traceability": "https://w3id.org/traceability/v1",
+    "schema": "http://schema.org/",
+    "certifier": "schema:text",
+    "place": "traceability:place"
+  }
+}
