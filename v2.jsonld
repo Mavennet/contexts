@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@version": 2,
+    "id": "@id",
+    "type": "@type",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "identifier": "https://schema.org/identifier",
+    "CreationEventCredential": {
+      "@context": {},
+      "@id": "https://mavennet.github.io/contexts/v2#CreationEventCredential"
+    },
+    "EventCredential": {
+      "@context": {
+        "schema": "http://schema.org/",
+        "traceability": "https://w3id.org/traceability/v1",
+        "thing": "https://schema.org/Thing",
+        "productId": "thing:identifier",
+        "eventId": "thing:identifier",
+        "eventType": "schema:text",
+        "eventTime": "schema:DateTime#v2",
+        "initiator": "traceability:organization",
+        "place": "traceability:place",
+        "product": "traceability:product",
+        "description": "schema:text"
+      },
+      "@id": "https://mavennet.github.io/contexts/v2#EventCredential"
+    },
+    "ExtInbond": {
+      "@context": {
+        "traceability": "https://w3id.org/traceability/v1",
+        "trackingNumber": "traceability:trackingNumber"
+      },
+      "@id": "https://mavennet.github.io/contexts/v2#ExtInbond"
+    },
+    "ExtMillTestReport": {
+      "@context": {
+        "traceability": "https://w3id.org/traceability/v1",
+        "schema": "http://schema.org/",
+        "certifier": "schema:text",
+        "place": "traceability:place"
+      },
+      "@id": "https://mavennet.github.io/contexts/v2#ExtMillTestReport"
+    },
+    "ExtOrganization": {
+      "@context": {
+        "traceability": "https://w3id.org/traceability/v1",
+        "did": "traceability:issuer"
+      },
+      "@id": "https://mavennet.github.io/contexts/v2#ExtOrganization"
+    },
+    "ExtProduct": {
+      "@id": "https://mavennet.github.io/contexts/v2#ExtProduct",
+      "@context": {
+        "traceability": "https://w3id.org/traceability/v1",
+        "width": "traceability:QuantitativeValue",
+        "height": "traceability:QuantitativeValue",
+        "length": "traceability:QuantitativeValue"
+      }
+    },
+    "ExtSteelProduct": {
+      "@context": {
+        "traceability": "https://w3id.org/traceability/v1",
+        "HSCode": "traceability:HSCode",
+        "sku": "traceability:sku",
+        "product": "traceability:SteelProduct",
+        "productionDate": "traceability:productionDate",
+        "facility": "traceability:place"
+      },
+      "@id": "https://mavennet.github.io/contexts/v2#ExtSteelProduct"
+    },
+    "StorageEventCredential": {
+      "@context": {
+        "traceability": "https://w3id.org/traceability/v1",
+        "storedWeight": "traceability:MeasuredValue",
+        "inspection": "traceability:InspectionReport"
+      },
+      "@id": "https://mavennet.github.io/contexts/v2#StorageEventCredential"
+    },
+    "TransferEventCredential": {
+      "@context": {
+        "traceability": "https://w3id.org/traceability/v1",
+        "receiver": "traceability:organization",
+        "price": "traceability:price",
+        "portOfEntry": "traceability:place",
+        "portOfArrival": "traceability:place",
+        "portOfDestination": "traceability:place",
+        "receiptLocation": "traceability:place",
+        "countryOfDestination": "traceability:destinationCountry"
+      },
+      "@id": "https://mavennet.github.io/contexts/v2#TransferEventCredential"
+    },
+    "TransformEventCredential": {
+      "@context": {
+        "traceability": "https://w3id.org/traceability/v1",
+        "newProduct": "traceability:product",
+        "consumedProducts": "traceability:product"
+      },
+      "@id": "https://mavennet.github.io/contexts/v2#TransformEventCredential"
+    },
+    "TransportEventCredential": {
+      "@context": {
+        "traceability": "https://w3id.org/traceability/v1",
+        "trackingNumber": "traceability:trackingNumber"
+      },
+      "@id": "https://mavennet.github.io/contexts/v2#TransportEventCredential"
+    }
+  }
+}
