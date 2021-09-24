@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "traceability": "https://w3id.org/traceability/v1",
+    "HSCode": "traceability:HSCode",
+    "sku": "traceability:sku",
+    "product": "traceability:SteelProduct",
+    "productionDate": "traceability:productionDate",
+    "facility": "traceability:place"
+  }
+}
