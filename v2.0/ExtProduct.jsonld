@@ -4,6 +4,7 @@
     "traceability": "https://w3id.org/traceability/v1",
     "width": "traceability:QuantitativeValue",
     "height": "traceability:QuantitativeValue",
-    "length": "traceability:QuantitativeValue"
+    "length": "traceability:QuantitativeValue",
+    "HSCode": "traceability:HSCode"
   }
 }

@@ -13,3 +13,7 @@ Product height.
 <h4 id="length"><a href="#length">length</a></h4>
 
 Product length.
+
+<h4 id="HSCode"><a href="#HSCode">HSCode</a></h4>
+
+Harmonized System Code for the Commodity
