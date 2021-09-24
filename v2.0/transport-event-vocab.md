@@ -5,3 +5,7 @@
 <h4 id="trackingNumber"><a href="#trackingNumber">trackingNumber</a></h4>
 
 Transportantion tracking number. 
+
+<h4 id="arrivalDate"><a href="#arrivalDate">arrivalDate</a></h4>
+
+Date of arrival 
