@@ -6,7 +6,7 @@ function readFiles() {
   versions.forEach(num => {
     const newContext = {
       "@context": {
-        "@version": num,
+        "@version": 1.1,
         id: "@id",
         type: "@type",
         name: "https://schema.org/name",
