@@ -104,6 +104,7 @@
         "traceability": "https://w3id.org/traceability/v1",
         "trackingNumber": "traceability:trackingNumber",
         "arrivalDate": "traceability:arrivalDate",
+        "expectedWeight": "traceability:weight",
         "deliveredWeight": "traceability:weight"
       },
       "@id": "https://mavennet.github.io/contexts/v2#TransportEventCredential"
