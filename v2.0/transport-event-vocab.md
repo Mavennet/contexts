@@ -6,6 +6,10 @@
 
 Transportantion tracking number. 
 
+<h4 id="shippingDate"><a href="#shippingDate">shippingDate</a></h4>
+
+Date of shipping
+
 <h4 id="arrivalDate"><a href="#arrivalDate">arrivalDate</a></h4>
 
 Date of arrival 
