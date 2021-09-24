@@ -29,7 +29,7 @@
     "ExtInbond": {
       "@context": {
         "traceability": "https://w3id.org/traceability/v1",
-        "trackingNumber": "traceability:trackingNumber"
+        "transactionNumber": "traceability:trackingNumber"
       },
       "@id": "https://mavennet.github.io/contexts/v2#ExtInbond"
     },
