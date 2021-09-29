@@ -106,7 +106,8 @@
         "shippingDate": "traceability:shippingDate",
         "arrivalDate": "traceability:arrivalDate",
         "expectedWeight": "traceability:weight",
-        "deliveredWeight": "traceability:weight"
+        "deliveredWeight": "traceability:weight",
+        "deliveryMethod": "traceability:deliveryMethod"
       },
       "@id": "https://mavennet.github.io/contexts/v2#TransportEventCredential"
     }
