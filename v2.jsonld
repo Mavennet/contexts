@@ -61,7 +61,7 @@
     },
     "ExtSteelProduct": {
       "@context": {
-        "cp": "https://mavennet.github.io/contexts/v1",
+        "cp": "https://mavennet.github.io/contexts/v2",
         "traceability": "https://w3id.org/traceability/v1",
         "technologyType": "cp:technologyType",
         "HSCode": "traceability:HSCode",
